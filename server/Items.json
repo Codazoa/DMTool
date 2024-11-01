@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Longsword",
+    "type": "Weapon",
+    "rarity": "Common",
+    "weight": "10 lbs",
+    "value": "3gp",
+    "damage": "1d8 slashing",
+    "properties": ["finesse", "two-handed"],
+    "range": "melee",
+    "magic_effects": [],
+    "usage_limit": "unlimited",
+    "rules": "",
+    "description": "",
+    "effects_on_user": "",
+    "crafting_requirements": "",
+    "icon": "",
+  }
+]
