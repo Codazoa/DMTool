@@ -1,16 +1,19 @@
 # Example item
 - id: 1 # ID for database 
-  name: "Flaming Longsword"
-  type: "Weapon"
-  rarity: "rare"
-  weight: 3
-  value: 1200
-  damage: "1d8 slashing + 1d6 fire"
-  properties: ["finesse", "two-handed"]
-  range: "melee"
-  durability: "pristine"
-  attunement_required: true
-  magic_effects:
+  name: "Flaming Longsword" # Name of item
+  type: "Weapon" # Type of item (Weapon, Potion, Armor, Scroll, MagicItem, etc.)
+  rarity: "rare" # Rarity of item (Common, Uncommon, Rare, Legendary)
+  weight: "3 lbs" # Weight of item
+  value: "120 gp" # Value of item
+  damage: "1d8 slashing + 1d6 fire" # Damage type and value (optional)
+  healing: "" # Healing value (optional)
+  properties: # Properties for the item
+    - "finesse"
+    - "two-handed"
+  range: "melee" # Range for the item to be used
+  durability: "pristine" # Durability class (destroyed, damaged, good, pristine)
+  attunement_required: true # boolean for if the item requires attunement to use
+  magic_effects: # Any effects the item may have
     - "+1 to attack rolls"
     - "deals extra 1d6 fire damage on hit"
   usage_limit: "2/day"
