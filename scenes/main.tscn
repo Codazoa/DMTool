@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://l0fwuvn4w7nc"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_hlhhk"]
+[ext_resource type="Texture2D" uid="uid://cr6viptncqy3h" path="res://icon.svg" id="2_mjmvi"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_hlhhk")
+
+[node name="DM_cam" type="Camera2D" parent="."]
+position = Vector2(577, 325)
+
+[node name="Player_cam" type="Camera2D" parent="."]
+position = Vector2(577, 325)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(457, 241)
+texture = ExtResource("2_mjmvi")

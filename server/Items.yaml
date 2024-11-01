@@ -1,0 +1,33 @@
+# Example item
+- id: 1 # ID for database 
+  name: "Flaming Longsword"
+  type: "Weapon"
+  rarity: "rare"
+  weight: 3
+  value: 1200
+  damage: "1d8 slashing + 1d6 fire"
+  properties: ["finesse", "two-handed"]
+  range: "melee"
+  durability: "pristine"
+  attunement_required: true
+  magic_effects:
+    - "+1 to attack rolls"
+    - "deals extra 1d6 fire damage on hit"
+  usage_limit: "2/day"
+  rules: "requires attunement by a creature of good alignment"
+  description: "A finely crafted sword that emits a warm glow and bursts into flames on command."
+  effects_on_user: "User gains resistance to cold damage while wielding."
+  crafting_requirements:
+    - "10 fire essence"
+    - "5 ingots of mithril"
+  icon: "/images/items/flaming_longsword.png"
+
+
+
+- id: 2
+  name: ""
+  type: ""
+  damage: ""
+  rarity: ""
+  effects:
+    bonus: ""
